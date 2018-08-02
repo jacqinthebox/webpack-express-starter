@@ -9,10 +9,8 @@ module.exports = {
   //The base directory, an absolute path, for resolving entry points and loaders from configuration.
   context: path.join(__dirname, "src"),
 
-  //Make sure HMR is injected when processing main.js. 
   entry: {
     main: [
-      //"webpack-hot-middleware/client?reload=true?",
       "./main"
     ]
   },
